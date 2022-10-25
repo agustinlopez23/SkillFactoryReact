@@ -1,0 +1,17 @@
+.ListCategories-container {
+  display: flex;
+  gap: 2rem;
+  width: 75%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.btn {
+  border-radius: 8px;
+  border: thin solid black;
+  padding: 0rem 0.5rem;
+}
+.btn:hover {
+  background-color: #85858595;
+  color: #fafafa;
+  cursor: pointer;
+}

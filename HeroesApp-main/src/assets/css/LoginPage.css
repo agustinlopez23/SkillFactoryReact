@@ -1,0 +1,24 @@
+.login-page {
+  color: #fff;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(24, 46, 28, 1) 79%
+  );
+  height: 100vh;
+
+  width: 100%;
+}
+.login-page img {
+  height: 10vh;
+  cursor: pointer;
+  -webkit-transition: all 0.5s 0s ease-in-out;
+  -moz-transition: all 0.5s 0s ease-in-out;
+  -o-transition: all 0.5s 0s ease-in-out;
+  transition: all 0.5s 0s ease-in-out;
+}
+.login-page img:hover {
+  height: 12vh;
+  cursor: pointer;
+}
